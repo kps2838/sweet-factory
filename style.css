@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+#main-header {
+    height: 129px; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+#main-header img{
+    width: 250px;
+    margin-bottom: 28.5px;
+}
+
+#main-header #gnb ul li{
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#main-header #gnb ul li span{
+    margin-left: 25px;
+}
+
+#main-header #gnb ul li:last-child{
+    margin-right: 0;
+}
+
+#home #contents{
+    margin-top: 30px;
+}
+
+#main-footer{
+    margin-top: 50px;
+    padding-top: 17px;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#contents{
+    margin-top: 30px ;
+}
+
+#about #contents article{
+    overflow: hidden;
+}
+
+#about #contents img{
+    float: left;
+    display: block;
+}
+
+#about #contents .text{
+    float: right;
+    width: 455px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#about #contents .text p{
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+#about #contents article ul{
+    font-size: 18px;
+}
+
+#about #contents article ul li{
+    text-indent: 1em;
+}
+
+#class #main-footer{
+    clear: both;
+}
+
+#class #contents > article > .info{
+    width: 320px;
+    height: 420px;
+    background:#FFFBF2;
+    padding-top: 24px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 55px;
+}
+
+#class #contents > article > .info:first-child{
+    margin-left: 0;
+}
+
+#class #contents article .info img{
+    margin-left: 26px;
+    margin-bottom: 24px;
+}
+
+#class #contents article .info .text{
+    background: #FFEEE9;
+    width: 320px;
+    height: 115px;
+    padding-left: 20px;
+    padding-top: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+#class #contents article .info .text h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#class #contents article .info .text p{
+    font-size: 15px;
+    margin: 0;
+}
+
+#class #contents article .info .text p:last-child{
+    margin-top: 5px;
+    color: #666;
+    margin: 0;
+}
+
+#contact article{
+    text-align: center;
+}
+
+
+#contact article img{
+    margin-top: 34px;
+}
+
+#contact .text{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 35px;
+}
+
+#contact .text h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+#contact .text p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
