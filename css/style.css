@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+h2{
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+#main-header {
+    height: 129px; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+#main-header img{
+    width: 250px;
+    margin-bottom: 28.5px;
+}
+
+#main-header #gnb ul li{
+    display: inline-block;
+    margin-right: 25px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#main-header #gnb ul li > a:hover{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#main-header #gnb ul li span{
+    margin-left: 25px;
+}
+
+#main-header #gnb ul li:last-child{
+    margin-right: 0;
+}
+
+#home #contents{
+    margin-top: 30px;
+}
+
+#main-footer{
+    margin-top: 50px;
+    height: 70px;
+    padding: 24px 0;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#contents{
+    margin-top: 30px ;
+}
+
+#about #contents .about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+
+#about #contents .text{
+    width: 456px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#about #contents .text p{
+    margin-bottom: 1em;
+    font-size: 18px;
+}
+
+#about .career{
+    margin-top: 22px;
+    width: 1000px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 90px;
+    padding-right: 59px;
+    position: relative;
+}
+
+#about .career > img{
+    margin-right: 154px;
+    z-index: 10;
+}
+
+#about .career .deco .circle1{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background-color: rgba(255, 157, 175, 0.5);
+    position: absolute;
+    bottom: 260px;
+    left: 58px;
+    animation-name: circle-deco1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle-deco1 {
+    0%{bottom: 220px; opacity: 0;}
+    100%{bottom: 260px; opacity: 1;}
+    
+}
+
+#about .career .deco .circle2{
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    bottom: 296px;
+    left: 144px;
+    animation-name: circle-deco2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle-deco2 {
+    0%{bottom: 256px; opacity: 0;}
+    100%{bottom: 296px; opacity: 1;}
+}
+
+#about .career .deco .circle3{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    background-color: #FFCFD7;
+    position: absolute;
+    bottom: 1px;
+    left: 232px;
+    animation-name: circle-deco3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle-deco3 {
+    0%{bottom: -39px; opacity: 0;}
+    100%{bottom: 1px; opacity: 1;}
+}
+
+#about .career .deco .circle4{
+    width: 173px;
+    height: 173px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    bottom: 6px;
+    left: 278px;
+    animation-name: circle-deco4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle-deco4 {
+    0%{bottom: -34px; opacity: 0;}
+    100%{bottom: 6px; opacity: 1;}
+}
+
+#about .career .deco .circle5{
+    width: 118px;
+    height: 118px;
+    border-radius: 50%;
+    background-color: rgba(255, 157, 175, 0.5);
+    position: absolute;
+    bottom: 82px;
+    left: 376px;
+    animation-name: circle-deco5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes circle-deco5 {
+    0%{bottom: 42px; opacity: 0;}
+    100%{bottom: 82px; opacity: 1;}
+}
+
+#about .career .container > h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 32px;
+    margin-left: -20px;
+}
+
+#about .career .container > ul{
+    width: 100%;
+}
+
+#about .career .container > ul > li{
+    font-size: 18px;
+}
+
+#about .career .container > ul > li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+#about .career .container > ul{
+    list-style-image: url(../images/Ellipse\ 1.png);
+}
+
+#about .gallery{
+    width: 1000px;
+    height: 482px;
+    padding-top: 74px;
+    margin-bottom: 25px;
+}
+
+#about .gallery > h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#about .gallery .images{
+    display: flex;
+    padding: 0 45px;
+}
+
+#about .gallery .images > img{
+    width: 635px;
+    margin-right: 90px;
+}
+
+#about .gallery .images .photo-list > img{
+    width: 180px;
+}
+
+#about .gallery .images .photo-list > img:not(:last-child){
+    margin-bottom: 24px;
+}
+
+
+#class #main-footer{
+    clear: both;
+}
+
+#class #contents > article > .info{
+    width: 320px;
+    height: 420px;
+    background:#FFFBF2;
+    padding-top: 24px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.25);
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 55px;
+}
+
+#class #contents > article > .info:first-child{
+    margin-left: 0;
+}
+
+#class #contents article .info img{
+    margin-left: 26px;
+    margin-bottom: 27px;
+}
+
+#class #contents article .info img:hover{
+    margin-left: 0;
+    width: 320px;
+    height: 251px;
+    object-fit: cover;
+}
+
+#class #contents article .info .text{
+    background: #FFEEE9;
+    width: 320px;
+    height: 115px;
+    padding-left: 20px;
+    padding-top: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+}
+
+#class #contents article .info .text h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+#class #contents article .info .text p{
+    font-size: 15px;
+    margin: 0;
+}
+
+#class #contents article .info .text p:last-child{
+    margin-top: 5px;
+    color: #666;
+    margin: 0;
+}
+
+#contact{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#contact article{
+    text-align: center;
+}
+
+
+#contact article img{
+    margin-top: 34px;
+}
+
+#contact .text{
+    width: 1000px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+    padding: 0 170px;
+}
+
+#contact .text div:nth-child(2n){
+    width: 240px;
+    margin-left: 50px;
+}
+
+#contact .text h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+#contact .text p{
+    font-size: 15px;
+    margin-bottom: 25px;
+}
