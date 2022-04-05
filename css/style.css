@@ -340,19 +340,23 @@ h2{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
     padding: 0 170px;
+}
+
+#contact .text > div{
+    width: 240px;
 }
 
 #contact .text div:nth-child(2n){
     width: 240px;
-    margin-left: 50px;
+    margin-left: 150px;
 }
 
 #contact .text h3{
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 8px;
+    
 }
 
 #contact .text p{
